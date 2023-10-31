@@ -41,6 +41,11 @@
     text-align: center;
 }
 
+#submit {
+    font-size: 18px;
+    color: white;
+}
+
 /* Footer */
 .footer {
     background-color: #333;

@@ -128,3 +128,10 @@ form {
     height: 500px; 
     width: 1080px;
 }
+
+.text-intro {
+    width: 70%; 
+    margin: 0 auto; 
+    text-align: center;
+    font-size: 18px;
+  }
