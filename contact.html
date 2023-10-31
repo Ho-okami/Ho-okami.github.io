@@ -45,12 +45,12 @@
     </nav>
 
     <!-- Contact Header Section with Image and Text -->
-    <section id="contact-header">
+    <section id="contact-header" class="text-center">
         <div class="image-container">
             <img src="images/Duplex/1.jpg" alt="Image">
         </div>
-        <div class="contact-text">
-            <h1>Contact</h1>
+        <div class="contact-text mb-5 mt-3">
+            <h1 class="mb-3">Contact</h1>
             <p id="soumission">N'hésitez pas à nous contacter pour découvrir comment nous pouvons vous aider à 
                 concrétiser votre rêve. Nous mettons à votre disposition diverses solutions 
                 pour donnez vie à votre projet.</p>
@@ -61,35 +61,28 @@
     <section id="contact-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4">
-                    <div class="company-info">
-                        <img src="images/logo.png" alt="Logo" style="max-width: 100%; height: auto;">
-                    </div>
-                </div>
-                <div class="col-lg-2">
-                    <div class="company-info">
-                        <h2>Coordonnées</h2>
-                        <p>Address</p>
-                        <p>Cell</p>
-                        <p>Email</p>
+                <div class="col-lg-6">
+                    <div class="company-info d-flex align-items-center justify-content-center">
+                        <img src="images/Logos/logo.png" alt="Logo" style="max-width: 100%; height: 100%;">
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <form id="contact-form">
+                    <form id="contact-form" action="https://formspree.io/f/info.diaspoconstruc@gmail.com" method="POST">
                         <div class="form-group">
-                            <input type="text" class="form-control" id="name" placeholder="Nom" required>
+                            <input type="text" class="form-control" name="name" placeholder="Nom" required>
                         </div>
                         <div class="form-group">
-                            <input type="tel" class="form-control" id="tel" placeholder="Téléphone" required>
+                            <input type="tel" class="form-control" name="tel" placeholder="Téléphone" required>
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control" id="email" placeholder="Email" required>
+                            <input type="email" class="form-control" name="email" placeholder="Email" required>
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control" id="message" rows="4" placeholder="Message" required></textarea>
+                            <textarea class="form-control" name="message" rows="4" placeholder="Message" required></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary">Envoyer</button>
+                        <button type="submit" id="btn" class="btn btn-primary">Envoyer</button>
                     </form>
+                    
                 </div>
             </div>
         </div>

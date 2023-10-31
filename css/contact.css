@@ -35,6 +35,12 @@
     border: 1px solid black;
 }
 
+#soumission {
+    width: 70%; 
+    margin: 0 auto; 
+    text-align: center;
+}
+
 /* Footer */
 .footer {
     background-color: #333;
