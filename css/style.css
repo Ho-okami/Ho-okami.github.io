@@ -93,8 +93,23 @@ h2 {
   color: white;
 }
 
-/* ------------------------------------------------------ */
+/* --------------------Page a propos--------------------------- */
+.about-section {
+  text-align: left;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
 
+.about-section h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.about-section p {
+  font-size: 18px;
+  color: #666;
+}
 
 
 
