@@ -1,0 +1,64 @@
+body {
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    background-color: black;
+}
+.navbar a {
+    color: white;
+}
+
+.navbar-brand {
+    font-family: 'Roboto Slab', serif;
+  }
+  
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* -------------------------------------------------- */
+#image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin: 5px;
+    display: none;
+}
+
+#categorie {
+    background-color: black;
+    color: white;
+    border: 4px solid black;
+    border-radius: 0;
+}
+
+.btn {
+    /* width: 100%; Make buttons full-width on smaller screens */
+    width: auto;
+    margin-bottom: 5px; /* Add some space between buttons */
+    background-color: black;
+    color: #fff;
+    text-align: center;
+}
+  
+  .text-white a {
+    color: white;
+  }
+
+  #btnFooter {
+    background-color: white;
+    color: black;
+    text-align: center;
+  }

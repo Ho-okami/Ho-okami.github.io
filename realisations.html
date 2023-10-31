@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/realisation.css">
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <title>Réalisations</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <a class="navbar-brand" href="index.html">
+            <img src="images/logo_mini_sansfond.png" alt="Logo" class="logo" style="max-width: 30%; height: auto;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="index.html">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="realisations.html">Réalisations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="/index.html#about">À propos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <section id="contact-header">
+        <div class="image-container">
+            <img src="images/int/3.jpg" alt="Image">
+        </div>
+        <div class="contact-text">
+        <h1>Idées</h1>
+        </div>
+    </section>
+    <div class="container text-center mt-5">
+        <p>Plongez dans l'univers de la construction d'excellence avec Diaspo Construc. 
+            Notre équipe, forte d'une expertise inégalée, 
+        est prête à donner vie à vos rêves architecturaux. Contactez-nous dès à 
+        présent pour échanger sur votre projet, vos attentes et vos besoins.
+
+        Nos spécialistes sont là pour vous fournir des conseils avisés sur l'ensemble 
+        de votre projet. Ne tardez plus et découvrez tout ce que nous pouvons réaliser 
+        pour vous ! Demandez votre devis gratuit dès aujourd'hui.
+        </p>
+        <div class="btn-group mt-5">
+            <button id="categorie" class="btn btn-primary active" data-filter="all">All</button>
+            <button id="categorie" class="btn btn-primary" data-filter="duplex">Duplex</button>
+            <button id="categorie" class="btn btn-primary" data-filter="locatif">Immeubles locatifs</button>
+            <button id="categorie" class="btn btn-primary" data-filter="residence">Residences</button>
+            <button id="categorie" class="btn btn-primary" data-filter="interior">Interieur</button>
+        </div>
+    </div>
+
+    <div class="container" id="image-container" style="height: 1000px;">
+        <img class="image" src="images/Residentiel/5.jpg" alt="Image 3" data-category="all residence">
+        <img class="image" src="images/Residentiel/4.jpg" alt="Image 7" data-category="all residence">
+        <img class="image" src="images/Duplex/6.png" alt="Image 1" data-category="all duplex">
+        <img class="image" src="images/Duplex/5.png" alt="Image 5" data-category="all duplex">
+        <img class="image" src="images/Duplex/4.png" alt="Image 9" data-category="all duplex">
+        <img class="image" src="images/Locatif_r2/5.jpg" alt="Image 10" data-category="all locatif">
+        <img class="image" src="images/Locatif_r2/4.jpg" alt="Image 2" data-category="all locatif">
+        <img class="image" src="images/Locatif_r2/3.jpg" alt="Image 6" data-category="all locatif">
+        <img class="image" src="images/int/9.png" alt="Image 4" data-category="all interior">
+        <img class="image" src="images/int/6.png" alt="Image 8" data-category="all interior">
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4  text-center">
+                    <div class="row text-center">
+                        <div class="col-md-6">
+                            <img src="images/logo_mini_sansfond.png" alt="Logo">
+                        </div>
+                        <h2>DIASPO CONSTRUC</h2>
+                        <small>Construisons Ensemble l'Avenir : Diaspo Construc, Votre Partenaire au Cameroun.</small>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center text-white">
+                    <ul class="list-unstyled text-white">
+                        <li class="mb-3"><a href="index.html">Accueil</a></li>
+                        <li class="mb-3"><a href="services.html">Services</a></li>
+                        <li class="mb-3"><a href="realisations.html">Réalisations</a></li>
+                        <li class="mb-3"><a href="/index.html#about">À propos</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 text-center">
+                    <p>Adresse: Votre adresse</p>
+                    <p>Téléphone: Votre numéro de téléphone</p>
+                    <p>Email: Votre adresse e-mail</p>
+                    <a href="contact.html" class="btn">Nous contacter</a>
+                </div>
+            </div>
+        </div>
+        <small>&copy; 2023 DIASPO CONSTRUC</small>
+    </footer>
+    
+    <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"></script>
+    <script>
+        function showAllImages() {
+        $('.image').show();}
+
+        // Filter images when a button is clicked
+        $('.btn').on('click', function() {
+            const filter = $(this).data('filter');
+            $('.image').hide();
+            if (filter === 'all') {
+                $('.image').show();
+            } else {
+                $(`.image[data-category*="${filter}"]`).show();
+            }
+        });
+
+        showAllImages();
+    </script>
+</body>
+</html>
